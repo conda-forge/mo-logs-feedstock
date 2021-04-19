@@ -1,5 +1,5 @@
 {% set name = "mo-logs" %}
-{% set version = "4.20.21059" %}
+{% set version = "4.23.21108" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mo-logs-{{ version }}.tar.gz
-  sha256: 5f008428610042c9104ca87ee4e85602a030be2597ecc760aa163e2d6d51bfce
+  sha256: de4136a7ce215ecbfd7a368588be0a3f1fd8a6521dc2d4aae57cc1c3ba299aab
 
 build:
   number: 0
