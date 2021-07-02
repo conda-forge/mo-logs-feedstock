@@ -21,10 +21,10 @@ requirements:
     - python >=2.7
   run:
     - python >=2.7
-    - mo-dots 4.22.21108
-    - mo-future 3.147.20327
-    - mo-imports 3.149.20327
-    - mo-kwargs 4.22.21108
+    - mo-dots 5.22.21182
+    - mo-future 5.17.21182
+    - mo-imports 5.17.21182
+    - mo-kwargs 5.23.21182
 
 test:
   imports:
