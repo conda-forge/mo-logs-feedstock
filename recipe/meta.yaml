@@ -24,7 +24,7 @@ requirements:
     - mo-dots 9.113.22021
     - mo-future 6.2.21303
     - mo-imports 7.109.22021
-    - mo-kwargs 7.114.22021
+    - mo-kwargs 7.125.22022
 
 test:
   imports:
