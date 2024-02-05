@@ -1,5 +1,5 @@
 {% set name = "mo-logs" %}
-{% set version = "7.330.23004" %}
+{% set version = "8.531.24035" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mo-logs-{{ version }}.tar.gz
-  sha256: 1d47b3efa905b25828054f54cc355cd2caa3b22d4065a2b55fa7bf3729c39a7b
+  sha256: 7d5e6076bc4de3992c7d10e3cfabdb96c42444eaf2302d6f573ad534e8ea2cf2
 
 build:
   number: 0
@@ -21,10 +21,10 @@ requirements:
     - python >=2.7
   run:
     - python >=2.7
-    - mo-dots ==9.300.22349
-    - mo-future ==7.298.22349
-    - mo-imports ==7.298.22349
-    - mo-kwargs ==7.310.22362
+    - mo-dots ==9.531.24035
+    - mo-future ==7.531.24035
+    - mo-imports ==7.531.24035
+    - mo-kwargs ==7.531.24035
 
 test:
   imports:
