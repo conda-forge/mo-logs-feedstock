@@ -1,5 +1,5 @@
 {% set name = "mo-logs" %}
-{% set version = "8.648.24172" %}
+{% set version = "8.659.25005" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 6b6f324cce1fadf5487bd5877b785a4261d20597ca4005732962734fd0b83ddf
+  sha256: a02ea065d6bc0921173e02d4f7085435b55370f709ebf667eedd78d5cab7d610
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,10 +21,10 @@ requirements:
     - python {{ python_min }}
   run:
     - python >={{ python_min }}
-    - mo-dots ==10.647.24166
+    - mo-dots ==10.659.25005
     - mo-future ==7.584.24095
     - mo-imports ==7.584.24095
-    - mo-kwargs ==7.647.24166
+    - mo-kwargs ==7.659.25005
 
 test:
   imports:
